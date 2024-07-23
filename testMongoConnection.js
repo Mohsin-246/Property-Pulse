@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const uri = 'mongodb+srv://sattimohsin838:satti707@cluster0.ga5jgep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb+srv://@cluster0.ga5jgep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 const client = new MongoClient(uri, {
   serverSelectionTimeoutMS: 500, // Increase timeout to 5 seconds
